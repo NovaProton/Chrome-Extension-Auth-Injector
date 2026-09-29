@@ -10,7 +10,11 @@ The extension doesn't intercept or answer the login prompt. Instead, it uses Chr
 - `background.js` rebuilds the dynamic header rules whenever the stored credentials change, and again on install and on browser startup.
 - Each enabled domain gets one rule, applied to all common resource types (pages, iframes, XHR/fetch, scripts, stylesheets, images, fonts, media and so on).
 
-## Installation
+## Installation Chrome Web Store
+
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Install-%234285F4.svg?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/auto-basic-auth/kkbnekjlaihkfhmlamgioaahobdajfdm)
+
+## Installation Local
 
 1. Clone or download this repository.
 2. Add icons at `icons/icon16.png`, `icons/icon48.png` and `icons/icon128.png` (Chrome will refuse to load the extension if the files listed in the manifest are missing).
